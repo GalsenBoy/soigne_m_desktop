@@ -45,7 +45,7 @@ export default function SignIn(): JSX.Element {
     <section className="">
       <h1 className="text-2xl text-center my-10 text-sky-400 ">Se connecter</h1>
       <div className="max-w-screen-xl mx-auto my-4">
-        <form onSubmit={handleSubmit} className="text-white">
+        <form onSubmit={handleSubmit}>
           <Input
             className="mb-4 "
             type="email"
